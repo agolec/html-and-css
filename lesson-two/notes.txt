@@ -1,0 +1,29 @@
+In here we have a <button> element that we want to make resemble the youtube subscribe buton.
+
+We will add CSS to it.
+
+to do this we use the <style> tag and closing </style> tag.
+
+The <style> tag does not make things appear on the page in a visible manner, 
+but they tell the browser how to style the page.
+
+
+            SYNTAX RULES
+
+    CSS Selector = which elements we're targeting on the page.
+
+    The most basic selector would be something like the following: 
+    
+        button {
+            background-color: red;
+        }
+    
+    Where we are saying "I want all the button elements on the page to have the background color red."
+
+    Inside the {} brackets is a syntax we have to follow.
+
+    Each CSS Property we are going to name has to be followed by a colon on the right, and then a CSS value for that attribute.
+
+    We must terminate these with the semicolon like in Java/C++/etc.
+
+    in our example, background-color is the CSSProperty.
