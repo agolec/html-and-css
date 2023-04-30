@@ -27,3 +27,8 @@ but they tell the browser how to style the page.
     We must terminate these with the semicolon like in Java/C++/etc.
 
     in our example, background-color is the CSSProperty.
+
+    Techniques to create CSSProperty is done in two steps.
+
+    1. create the element in HTML.
+    2. Style it property by property in CSS.
