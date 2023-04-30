@@ -1,0 +1,20 @@
+Pseudo classes.
+
+When we want to add new styles to an element upon a condition like the cursor
+hovering over it, or the user clicking it, we make a new style with the following
+syntax:
+
+    .<class_name>:<desired_action> {
+
+    }
+
+    ex:
+
+    .subscribe-button:hover {
+
+    }
+
+    :hover is a pseudoclass because we're adding another style to an existing style, 
+    if the context of that style is met. In this case, the user has to hover over the
+    element using the class subscribe-button, and the styles inside .subscribe-button:hover
+    will be applied.
