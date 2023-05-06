@@ -32,3 +32,22 @@ but they tell the browser how to style the page.
 
     1. create the element in HTML.
     2. Style it property by property in CSS.
+
+    Pseudo Classes.
+
+    pseudoclasses are given after a : colon in the class name.
+
+    ex:
+
+    :hover describes the way an element should display upon the cursor hovering
+    over any element with the subscribe-button class assigned to it.
+
+    .subscribe-button:hover {
+        
+    }
+
+    :active describes how an element using the class subscribe-button should
+    display as it is actively being clicked upon.
+    .subscribe-button:active{
+
+    }
