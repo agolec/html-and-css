@@ -18,3 +18,12 @@ syntax:
     if the context of that style is met. In this case, the user has to hover over the
     element using the class subscribe-button, and the styles inside .subscribe-button:hover
     will be applied.
+
+    Hovers
+
+    Transitions
+
+        Shadows
+
+Shadows have attributes like 'box-shadow' which create a shadow matching the shape of the object.
+    
