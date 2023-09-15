@@ -21,9 +21,23 @@ syntax:
 
     Hovers
 
+in order to add a hover to any element matching a class, add the :hover pseudo 
+class as described above.
+
     Transitions
+
+Transitions use the arribute 'transition' with a value 'opacity' followed by a duration.
+
+ex:
+
+    transition: opacity 0.15s
+
+You would add these to your class that contains the :hover pseudoclass so that
+when the user hovers on the element, it will perform the transition.
 
         Shadows
 
 Shadows have attributes like 'box-shadow' which create a shadow matching the shape of the object.
+
+we can use rgba() to make shadows.
     
